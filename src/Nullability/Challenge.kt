@@ -1,13 +1,8 @@
 package Nullability
 
 fun main(args:Array<String>){
-    val a : Int? = divideIfWhole(7,5)
-    if(a!=null){
-        print("Yep, it divides ${a} times")
-    }
-    else{
-        print("Not divisible :[")
-    }
+    val a : Int? = divideIfWhole(50,5)
+    print("It divides ${a?:0} times")
 }
 
 fun divideIfWhole(value: Int, divisor: Int):Int? {
