@@ -1,4 +1,4 @@
-package Collections
+package list_and_arrays
 
 fun main(args:Array<String>){
 
