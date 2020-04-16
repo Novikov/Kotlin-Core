@@ -12,4 +12,8 @@ fun main(args:Array<String>){
 class Person(var firstName: String, var lastName: String) {
     val fullName
         get() = "$firstName $lastName"
+
+    companion object{
+        var x = 1
+    }
 }
