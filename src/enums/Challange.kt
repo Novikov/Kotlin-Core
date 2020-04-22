@@ -1,7 +1,5 @@
-package methods
+package enums
 
 fun main(args:Array<String>){
 
 }
-
-
