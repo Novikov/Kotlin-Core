@@ -12,7 +12,6 @@ fun getNElementsOfFibonacci(n: Int): Sequence<Int> {
     val sequence = generateSequence(1 to 1) {
         it.second to it.first + it.second
     }.map { it.first }
-
     return sequence.take(n)
 }
 
